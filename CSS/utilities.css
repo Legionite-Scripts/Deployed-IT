@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+img{
+  user-select: none;
+  -webkit-user-drag: none;
+}
 input {
   padding: 0 1em 0 1em;
 }
@@ -20,4 +24,19 @@ button:hover{
   font-family: "Playfair Display", serif;
   font-style: italic;
   font-weight: 400;
+}
+
+
+/* CAROUSEL */
+.carousel {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  position: relative;
+  justify-content: space-between;
+
+  @media (width < 1000px) {
+    display: none !important;
+  }
 }
