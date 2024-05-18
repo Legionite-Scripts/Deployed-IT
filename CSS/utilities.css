@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+input {
+  padding: 0 1em 0 1em;
+}
+
+button {
+  cursor: pointer;
+  transition: all .3s ease;
+  border: none;
+}
+button:hover{
+  transform: scale(1.05);
+}
+.spanned-text{
+  color: #39a3da;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-weight: 400;
+}
