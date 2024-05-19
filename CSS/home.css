@@ -4,7 +4,7 @@
 
 /* TOP */
 .top {
-  height: 100vh;
+  /* height: 100vh; */
   background: url("../Assets/Home/bg.png");
   background-size: cover;
 
@@ -79,7 +79,6 @@ p {
 
 /* SERVICES */
 .services {
-  height: 100vh;
   background-color: #f5fffe;
   @media (width < 1000px) {
     height: auto;
