@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/infrastructure.css" />
+    <title>Structure Cabling Deployment</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <section class="top center p-2">
+        <nav class="navbar pr-5 pl-5">
+          <div class="navbar-brand mt-2">
+            <a href="./index.html" class="mt-5"
+              ><img
+                src="../Assets/Home/logo.png"
+                alt="Logo"
+                title="Deployed IT Solutions"
+            /></a>
+          </div>
+          <div class="navbar-toggle mt-2" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="navbar-menu mt-2">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <a href="#" class="main-btn-2 mt-5 center">
+              <button class="p-1 pl-5 pr-5">Contact Us</button></a
+            >
+          </ul>
+
+          <a href="#" class="main-btn mt-2">
+            <button class="p-1 pl-5 pr-5">Contact Us</button></a
+          >
+        </nav>
+        <div class="texts center flexed-column mt-5 mb-5">
+          <h1 class="text-center mt-5 mb-2">
+            Structure Cabling<br />Deployment
+          </h1>
+          <p class="text-center mb-5">
+            Specialized Infrastructure Enhancement: <span class="spanned-text">Unmatched</span> Structured Cabling
+            Deployment Solutions for Seamless Integration into Operational
+            Infrastructure
+          </p>
+          <button class="p-2 pr-5 pl-5">Contact Us</button>
+        </div>
+
+        <div class="top-images flexed-row mb-4">
+          <img src="../Assets/Other/default-img-1.png" alt="" />
+          <img src="../Assets/Other/default-img-3.png" alt="" />
+          <img src="../Assets/Other/default-img-2.png" alt="" />
+        </div>
+      </section>
+
+      <!-- STATS -->
+      <section class="stats flexed-row">
+        <div class="stat-details center p-2 pr-5 pl-5">
+          <div class="mt-5 mb-4">
+            <h1 style="font-weight: 600" class="mb-3">
+              Configuration,Kitting, and Assembly
+            </h1>
+            <p>
+              We have a sizable warehouse to accommodate your vast rollout. We
+              will configure the device(s) according to your specifications and
+              prepare them for transportation to the installation location.
+            </p>
+          </div>
+
+          <div class="btn-container mb-5">
+            <button class="p-2 pr-5 pl-5 mb-5">Learn More</button>
+          </div>
+        </div>
+        <div></div>
+      </section>
+
+      <footer class="p-5 center">
+        <section class="flexed-row mt-5 mb-5">
+          <div class="footer-colored p-3">
+            <h1 class="mb-4" style="font-weight: 600">Deployed IT Solutions</h1>
+            <p>
+              <a href="#">Browse our services</a> or
+              <a href="#">contact us</a> if you need help.
+            </p>
+          </div>
+          <div>
+            <div class="mail footer-colored p-3">
+              <h2 style="font-weight: 600">Get mails from us</h2>
+
+              <div class="mt-5 flexed-row">
+                <input type="text" placeholder="Subscribe to our newsletter" />
+                <button>Go</button>
+              </div>
+            </div>
+
+            <div class="social pt-2 flexed-row">
+              <a href="#">
+                <img src="../Assets/Home/twitter-icon.png" alt="Icon"
+              /></a>
+              <a href="#">
+                <img src="../Assets/Home/insta-icon.png" alt="Icon"
+              /></a>
+              <a href="#">
+                <img src="../Assets/Home/linkedin-icon.png" alt="Icon"
+              /></a>
+
+              <section class="footer-colored center pr-2 pl-2">
+                <p>© Deployeditsolutions 2024</p>
+              </section>
+            </div>
+          </div>
+        </section>
+      </footer>
+    </div>
+
+    <script>
+      const mobileMenu = document.getElementById("mobile-menu");
+      const navbarMenu = document.querySelector(".navbar-menu");
+
+      mobileMenu.addEventListener("click", () => {
+        navbarMenu.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
