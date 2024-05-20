@@ -163,6 +163,7 @@ footer {
     height: auto;
   }
 }
+
 footer > section {
   height: 20em;
   width: 100%;
@@ -193,8 +194,9 @@ footer > section > div > div.mail {
     margin-top: 10%;
   }
 }
-.mail > div {
+.mail > div > input {
   /* border: 1px solid red; */
+  color: #eee9ef;
 }
 .mail > div > input {
   height: 4em;
