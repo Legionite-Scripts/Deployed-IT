@@ -1,0 +1,35 @@
+@import url("./index.css");
+@import url("./font.css");
+@import url("./utilities.css");
+
+/* TOP */
+.top {
+  /* height: 100vh; */
+  background: url("./Assets/Home/bg.png");
+  background-size: cover;
+
+  @media (width < 768px) {
+    height: 100vh;
+  }
+}
+.top > div.texts {
+  border: 1px solid white !important;
+  color: #eee9ef !important;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.top > div.texts > div,form{
+  width: 50%;
+  border: 1px solid red;
+}
+.top > div.texts > h1,
+p {
+  color: #eee9ef;
+}
+.top > div.texts > button {
+  background-color: #39a3da;
+  color: #fcfcfd;
+  border-radius: 8px;
+}
+
+    
