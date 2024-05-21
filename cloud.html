@@ -25,16 +25,47 @@
             <span class="bar"></span>
           </div>
           <ul class="navbar-menu mt-2">
-            <li><a href="#">Home</a></li>
+            <li><a href="./index.html">Home</a></li>
             <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
+
+            <!-- Service Dropdown -->
+            <section class="service-section flexed-column">
+              <li class="link-for-dropdown">
+                Services&nbsp;&nbsp;<img
+                  src="./Assets/Other/dropdown-icon.png"
+                  alt="Dropdown"
+                />
+              </li>
+
+              <div
+                class="service-dropdown mt-4 flexed-column text-center mt-5 pt-2 pb-3"
+              >
+                <a href="./infrastructure.html" class="mt-1"
+                  >Infrastructure Deployment</a
+                ><br />
+                <a href="./configuration.html" class="mt-1"
+                  >Configuration, Kitting, and Assembly</a
+                ><br />
+                <a href="./services.html" class="mt-1">Services Deployment</a
+                ><br />
+                <a href="./structure.html" class="mt-1"
+                  >Structure Cabling Deployment</a
+                ><br />
+                <a href="./wireless.html" class="mt-1"
+                  >Wireless Design and Deployment</a
+                ><br />
+                <a href="./cloud.html" class="mt-1">Cloud Service</a>
+              </div>
+            </section>
+            <!--  -->
+
+            <li><a href="./contact.html">Contact</a></li>
             <a href="#" class="main-btn-2 mt-5 center">
               <button class="p-1 pl-5 pr-5">Contact Us</button></a
             >
           </ul>
 
-          <a href="#" class="main-btn mt-2">
+          <a href="./contact.html" class="main-btn mt-2">
             <button class="p-1 pl-5 pr-5">Contact Us</button></a
           >
         </nav>
@@ -126,9 +157,18 @@
     <script>
       const mobileMenu = document.getElementById("mobile-menu");
       const navbarMenu = document.querySelector(".navbar-menu");
+      const targetElementServiceMenu =
+        document.querySelector(".service-dropdown");
+      const dropdownLink = document.querySelector(".link-for-dropdown");
+
+      const className = "serviceMenuAvailable"; // Replace with your desired class name
 
       mobileMenu.addEventListener("click", () => {
         navbarMenu.classList.toggle("active");
+      });
+
+      dropdownLink.addEventListener("click", function () {
+        targetElementServiceMenu.classList.toggle(className);
       });
     </script>
   </body>
