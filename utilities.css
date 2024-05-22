@@ -67,6 +67,7 @@ button:hover {
   z-index: 100;
   padding-bottom: 20px !important;
   background: url("./Assets/Home/bg.png");
+  background-size: cover;
   user-select: none; 
 
   @media (width < 1000px) {
