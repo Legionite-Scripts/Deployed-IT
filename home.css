@@ -5,7 +5,7 @@
 /* TOP */
 .top {
   /* height: 100vh; */
-  background: url("./Assets/Home/bg.png");
+  background: url("./Assets/Home/bg.webp");
   background-size: cover;
 
   @media (width < 768px) {
