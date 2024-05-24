@@ -1,0 +1,52 @@
+@import url("./index.css");
+@import url("./font.css");
+@import url("./utilities.css");
+* {
+  color: #eee9ef !important;
+}
+main {
+  width: 100%;
+  background: #07140a;
+  color: #eee9ef;
+}
+.blog-title {
+  flex-wrap: wrap !important;
+  justify-content: space-between;
+  flex-wrap: wrap !important;
+  @media (width<768px) {
+    padding: 20px !important;
+  }
+}
+.blog-title > img {
+  @media (width<768px) {
+    width: 100%;
+  }
+}
+.blog-content {
+  flex-wrap: wrap !important;
+  justify-content: space-between;
+  @media (width<768px) {
+    padding: 20px;
+  }
+}
+.blog-content > p {
+  width: 47% !important;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-weight: 300 !important;
+  @media (width<768px) {
+    width: 100% !important;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}
+.blog-content > p:last-child {
+  width: 100% !important;
+}
+ul{
+  list-style:decimal;
+  margin: auto;
+}
+li{
+  margin: 2em 0 2em 0;
+}
