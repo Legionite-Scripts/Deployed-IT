@@ -5,7 +5,7 @@
 /* TOP */
 .top {
   /* height: 100vh; */
-  background: url("./Assets/Home/bg.webp");
+  background: #07140a;
   background-size: cover;
   height: auto !important;
 
@@ -13,6 +13,10 @@
     /* height: 100vh; */
     padding: 20px !important;
   }
+}
+
+.navbar {
+  background: #07140a !important;
 }
 .top > div.texts > h1,
 p {

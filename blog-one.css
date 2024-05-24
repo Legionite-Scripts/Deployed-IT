@@ -1,8 +1,17 @@
 @import url("./index.css");
 @import url("./font.css");
 @import url("./utilities.css");
-* {
+p,
+h1,
+h2 {
   color: #eee9ef !important;
+}
+p{
+  font-weight: 300 !important;
+}
+.navbar {
+  position: relative !important;
+  background: #07140a !important;
 }
 main {
   width: 100%;
@@ -29,11 +38,10 @@ main {
     padding: 20px;
   }
 }
-.blog-content > p {
+.blog-content > p{
   width: 47% !important;
   margin-top: 2%;
   margin-bottom: 2%;
-  font-weight: 300 !important;
   @media (width<768px) {
     width: 100% !important;
     margin-top: 5%;
@@ -43,10 +51,10 @@ main {
 .blog-content > p:last-child {
   width: 100% !important;
 }
-ul{
-  list-style:decimal;
-  margin: auto;
+ul {
+  list-style:circle;
+  width: 100%;
 }
-li{
+li {
   margin: 2em 0 2em 0;
 }
