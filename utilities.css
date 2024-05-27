@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+a {
+  text-decoration: none !important;
+}
 img {
   user-select: none;
   -webkit-user-drag: none;
@@ -68,13 +71,12 @@ button:hover {
   padding-bottom: 20px !important;
   background: url("./Assets/Home/bg.webp");
   background-size: cover;
-  user-select: none; 
+  user-select: none;
 
   @media (width < 1000px) {
     padding: 0 20px 0 20px !important;
     padding-bottom: 20px !important;
     background-size: cover !important;
-
   }
 }
 
@@ -155,11 +157,11 @@ button:hover {
   }
 }
 .navbar > .navbar-menu > .service-section > .service-dropdown {
-display: none;
+  display: none;
 }
 .serviceMenuAvailable {
   /* border: 1px solid #fff; */
-  display:inline-flex !important;
+  display: inline-flex !important;
   z-index: 2;
   width: 30em;
   position: absolute !important;

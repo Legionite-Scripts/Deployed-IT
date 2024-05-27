@@ -40,7 +40,7 @@ form > textarea {
   }
 }
 .top > div.texts > form > input {
-  height: 3em;
+  height: 4em;
   border: none !important;
 }
 form > input::placeholder,
