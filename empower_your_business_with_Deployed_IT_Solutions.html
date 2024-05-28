@@ -266,22 +266,6 @@
         </div>
       </section>
     </footer>
-    <script>
-      const mobileMenu = document.getElementById("mobile-menu");
-      const navbarMenu = document.querySelector(".navbar-menu");
-      const targetElementServiceMenu =
-        document.querySelector(".service-dropdown");
-      const dropdownLink = document.querySelector(".link-for-dropdown");
-
-      const className = "serviceMenuAvailable"; // Replace with your desired class name
-
-      mobileMenu.addEventListener("click", () => {
-        navbarMenu.classList.toggle("active");
-      });
-
-      dropdownLink.addEventListener("click", function () {
-        targetElementServiceMenu.classList.toggle(className);
-      });
-    </script>
+    <script src="./script.js"></script>
   </body>
 </html>

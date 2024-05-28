@@ -18,6 +18,7 @@ dropdownLink.addEventListener("click", function () {
 });
 
 darkModeButton.addEventListener("click", function () {
+
   backgroundToBeDarkened.classList.toggle("dark");
 
   textToBeDarkened.classList.toggle("dark-mode-text");

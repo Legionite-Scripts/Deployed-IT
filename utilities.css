@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -60,6 +61,9 @@ button:hover {
 }
 .dark-mode-text{
   color: #eee9ef !important;
+}
+.light{
+  background:#eee9ef !important;
 }
 .spanned-text {
   color: #39a3da;

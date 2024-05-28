@@ -1,12 +1,10 @@
 @import url("./index.css");
 @import url("./font.css");
 @import url("./utilities.css");
-
 /* TOP */
 .top {
   /* height: 100vh; */
   background: #07140a;
-  background-size: cover;
   height: auto !important;
 
   @media (width < 1000px) {
@@ -87,4 +85,7 @@ p {
 .blog-links > a > div > p {
   color: #eb682c;
   line-break: strict;
+}
+.blog-links > a > div > h2 {
+  /* color: #07140a; */
 }

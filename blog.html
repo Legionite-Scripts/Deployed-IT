@@ -5,12 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./blogList.css" />
     <link rel="icon" type="image/x-icon" href="./Assets/Home/logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Blog</title>
   </head>
 
   <body>
     <div class="container">
-      <section class="top center p-5">
+      <section class="top center p-5 bg-lightened">
         <nav class="navbar pr-5 pl-5">
           <div class="navbar-brand mt-2">
             <a href="./index.html" class="mt-5"
@@ -72,7 +79,7 @@
         </nav>
 
         <section class="blogList center flexed-column mt-5">
-          <h1 class="normal-spanned-text mb-5">Our Blog</h1>
+          <h1 class="normal-spanned-text mb-5 text-darkened">Our Blog</h1>
 
           <div class="blog-links flexed-row mt-5">
             <!-- FIRST BLOG LINK -->
@@ -86,7 +93,9 @@
                   class="mb-3"
                 />
                 <p class="normal-spanned-text mb-2">Jan 24th, 2024</p>
-                <h2>Expanding your Small Business Infrastructure Smartly</h2>
+                <h2 class="text-darkened">
+                  Expanding your Small Business Infrastructure Smartly
+                </h2>
               </div>
             </a>
 
@@ -101,7 +110,7 @@
                   class="mb-3"
                 />
                 <p class="normal-spanned-text mb-2">Dec 21st, 2023</p>
-                <h2>
+                <h2 class="text-darkened">
                   How to Choose the Best Wireless Network Installation Service
                 </h2>
               </div>
@@ -233,22 +242,6 @@
       </footer>
     </div>
 
-    <script>
-      const mobileMenu = document.getElementById("mobile-menu");
-      const navbarMenu = document.querySelector(".navbar-menu");
-      const targetElementServiceMenu =
-        document.querySelector(".service-dropdown");
-      const dropdownLink = document.querySelector(".link-for-dropdown");
-
-      const className = "serviceMenuAvailable"; // Replace with your desired class name
-
-      mobileMenu.addEventListener("click", () => {
-        navbarMenu.classList.toggle("active");
-      });
-
-      dropdownLink.addEventListener("click", function () {
-        targetElementServiceMenu.classList.toggle(className);
-      });
-    </script>
+    <script src="./script.js"></script>
   </body>
 </html>
