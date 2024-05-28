@@ -25,6 +25,42 @@ button {
 button:hover {
   transform: scale(1.05);
 }
+.dark-mode-btn{
+  position: fixed !important;
+  right: 0;
+  bottom: 0;
+  margin: 20px;
+  /* background-color: red !important; */
+  z-index: 11;
+  padding: 20px;
+  color: #ffffff;
+  /* background: none !important; */
+  background-color: #5c5c5d;
+  border-radius: 100%;
+  width: 6em;
+  height: 6em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media (width < 768px) {
+    width: 4em;
+    height: 4em;
+  }
+}
+.dark-mode-btn > i{
+  font-size: 3em;
+  color: #07140a !important;
+  color: #ffffff !important;
+  @media (width < 768px) {
+   font-size: 2em;
+  }
+}
+.dark{
+  background: #07140a !important; 
+}
+.dark-mode-text{
+  color: #eee9ef !important;
+}
 .spanned-text {
   color: #39a3da;
   font-family: "Playfair Display", serif;
@@ -70,6 +106,7 @@ button:hover {
   z-index: 100;
   padding-bottom: 20px !important;
   background: url("./Assets/Home/bg.webp");
+  /* background: #07140a; */
   background-size: cover;
   user-select: none;
 
