@@ -125,6 +125,10 @@ button:hover {
   text-decoration: none;
   font-size: 1.5rem;
 }
+.navbar-brand a > img{
+height: 2em;
+width: auto;
+}
 
 .navbar-toggle {
   display: none;
