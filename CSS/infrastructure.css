@@ -16,7 +16,7 @@
 p {
   color: #eee9ef;
 }
-.top > div.texts >a> button {
+.top > div.texts > a > button {
   background-color: #39a3da;
   color: #fcfcfd;
   border-radius: 8px;
@@ -75,9 +75,9 @@ p {
   letter-spacing: 1.1px;
 }
 .stats > div:nth-of-type(2) {
-  background: url("../Assets/Other/bg-1.png");
-  background-size: cover;
+  /* background: url("../Assets/Other/bg-1.png"); */
+  background-size: cover !important;
   @media (width < 768px) {
-    height: 20em;
+    height: 25em;
   }
 }
