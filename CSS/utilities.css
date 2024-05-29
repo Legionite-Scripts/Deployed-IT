@@ -108,8 +108,8 @@ button:hover {
   top: 0;
   z-index: 100;
   padding-bottom: 20px !important;
-  background: url("../Assets/Home/bg.webp");
-  /* background: #07140a; */
+  /* background: url("../Assets/Home/bg.webp"); */
+  background: #eee9ef;
   background-size: cover;
   user-select: none;
 
@@ -125,9 +125,9 @@ button:hover {
   text-decoration: none;
   font-size: 1.5rem;
 }
-.navbar-brand a > img{
-height: 2em;
-width: auto;
+.navbar-brand a > img {
+  height: 2em;
+  width: auto;
 }
 
 .navbar-toggle {
@@ -154,7 +154,7 @@ width: auto;
     position: absolute;
     top: 60px;
     left: -100%;
-    background-color: #06140b;
+    background-color: #eee9ef;
     width: 100%;
     flex-direction: column;
     transition: left 0.3s ease;
@@ -164,7 +164,8 @@ width: auto;
 
 .navbar-menu li {
   margin-left: 1.5rem;
-  color: #fff;
+  /* color: #fff; */
+  color: #07140a;
   transition: all 0.3s ease;
   cursor: pointer;
   @media (width<768px) {
@@ -174,7 +175,7 @@ width: auto;
 }
 
 .navbar-menu a {
-  color: #fff;
+  color: #07140a;
   text-decoration: none;
   font-size: 1rem;
   transition: color 0.3s ease;
@@ -184,10 +185,10 @@ width: auto;
 .navbar-menu li:hover {
   color: #38a3db;
 }
-.navbar > .main-btn {
-  background-color: #eee9ef;
-  color: #142a33;
-  border-radius: 2px;
+.navbar > .main-btn > button {
+  background-color: #07140a !important;
+  color: #eee9ef !important;
+  border-radius: 5px;
   @media (width <768px) {
     display: none;
   }
@@ -195,8 +196,9 @@ width: auto;
 .navbar > .navbar-menu > .main-btn-2 {
   display: none !important;
   @media (width<768px) {
-    background-color: #eee9ef;
-    color: #142a33;
+    display: inline-flex;
+    background-color: #07140a !important;
+    color: #eee9ef !important;
     border-radius: 2px;
   }
 }
@@ -221,6 +223,9 @@ width: auto;
     background: transparent !important;
     /* line-height: 2em; */
   }
+}
+.serviceMenuAvailable > a{
+  color: #eee9ef !important;
 }
 
 /* Responsive Styles */

@@ -11,7 +11,7 @@ p{
 }
 .navbar {
   position: relative !important;
-  background: #07140a !important;
+  /* background: #07140a !important; */
 }
 main {
   width: 100%;
