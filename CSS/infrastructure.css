@@ -16,7 +16,7 @@
 p {
   color: #eee9ef;
 }
-.top > div.texts > button {
+.top > div.texts >a> button {
   background-color: #39a3da;
   color: #fcfcfd;
   border-radius: 8px;
