@@ -5,7 +5,7 @@
 /* TOP */
 .top {
   /* height: 100vh; */
-  background: url("./Assets/Home/bg.webp");
+  background: url("../Assets/Home/bg.webp");
   background-size: cover;
 
   @media (width < 768px) {
@@ -70,7 +70,7 @@ p {
   letter-spacing: 1.1px;
 }
 .stats > div:nth-of-type(2) {
-  background: url("./Assets/Home/stats.png");
+  background: url("../Assets/Home/stats.png");
   background-size: cover;
   @media (width < 768px) {
     height: 20em;

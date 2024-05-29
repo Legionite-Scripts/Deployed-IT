@@ -17,14 +17,14 @@ dropdownLink.addEventListener("click", function () {
   targetElementServiceMenu.classList.toggle(className);
 });
 
-darkModeButton.addEventListener("click", function () {
+// darkModeButton.addEventListener("click", function () {
 
-  backgroundToBeDarkened.classList.toggle("dark");
+//   backgroundToBeDarkened.classList.toggle("dark");
 
-  textToBeDarkened.classList.toggle("dark-mode-text");
-  if (backgroundToBeDarkened.classList.contains("dark")) {
-    darkModeButton.innerHTML = `<i class="fa-regular fa-sun fa-spin"></i>`;
-  } else {
-    darkModeButton.innerHTML = `<i class="fa-regular fa-moon fa-bounce"></i>`;
-  }
-});
+//   textToBeDarkened.classList.toggle("dark-mode-text");
+//   if (backgroundToBeDarkened.classList.contains("dark")) {
+//     darkModeButton.innerHTML = `<i class="fa-regular fa-sun fa-spin"></i>`;
+//   } else {
+//     darkModeButton.innerHTML = `<i class="fa-regular fa-moon fa-bounce"></i>`;
+//   }
+// });

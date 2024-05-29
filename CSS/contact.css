@@ -9,7 +9,7 @@ form > textarea {
 }
 .top {
   /* height: 100vh; */
-  background: url("./Assets/Home/bg.png");
+  background: url("../Assets/Home/bg.png");
   background-size: cover;
   margin-top: 50px !important;
 
