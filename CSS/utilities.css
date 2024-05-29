@@ -226,6 +226,9 @@ button:hover {
 }
 .serviceMenuAvailable > a{
   color: #eee9ef !important;
+  @media(width<768px){
+    color: #07140a !important;
+  }
 }
 
 /* Responsive Styles */
